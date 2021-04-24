@@ -1,13 +1,3 @@
-/*Custom Font System Wide*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-:root {
---Chat-Font-Used: 'Montserrat', normal ; /* Replace the url with a url of your font choice, and replace "Montserrat" and "normal" with your font name and weight.*/
---Chat-Font-Size: 15.5px;
-}
-:not([class="hljs"]):not(code){
-font-family: var(--Chat-Font-Used)!important;
-}
-
 .markup:not(code) {
 font-size: var(--Chat-Font-Size)!important;
 }
