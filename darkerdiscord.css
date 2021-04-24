@@ -12,7 +12,10 @@ font-family: var(--Chat-Font-Used)!important;
 font-size: var(--Chat-Font-Size)!important;
 }
 
-
+/*Loading transition between people / servers*/
+:root {
+	--background-primary: #161616;
+}
 
 /* Scrollerbar & Background */
 .chat-3bRxxu .scroller-2LSbBU::-webkit-scrollbar-thumb {
@@ -976,7 +979,7 @@ font-size: var(--Chat-Font-Size)!important;
 
 /* Chat Emoji */
 .markup-2BOw-j .emoji {
-	height: 35px;
+	height: 23px;
 	width: var(--Chat-Emoji-Size);
 }
 .markup-2BOw-j .emoji.jumboable {
@@ -2056,10 +2059,6 @@ font-size: var(--Chat-Font-Size)!important;
 	background-color: #4857742a;
 }
 
-
-
-
-
 .reaction-1hd86g {
 	background-color: #1B1B1B;
 }
@@ -2094,4 +2093,81 @@ font-size: var(--Chat-Font-Size)!important;
 
 .reactionCount-2mvXRV{
 	color: white;
+}
+
+/* Resizing Background */
+body {
+	background-color: #161616;
+}
+/* Entering/Exiting Options Background */
+.layers-3iHuyZ {
+	background-color: #191919;
+}
+/* Discord Crashed Background */
+.wrapper-1prNyd {
+	background: #111111;
+}
+/* Remove Corner Rounding */
+.app-19_DXt .base-3dtUhz {
+	border-radius: 0px;
+}
+/* Connecting/Reconnecting Loading Screen */
+.container-16j22k {
+	background: hsla(0,0%,5%,0.90) !important;
+}
+
+/* Modal Background Darkening */
+.backdrop-1wrmKB {
+	opacity: 0.65 !important;
+}
+
+/* Link Colors */
+.app a {
+	color: #FFFFFF;
+}
+.standardSidebarView-3F1I7i .side-8zPYf6 a {
+	color: var(--bd-blue);
+}
+
+/* Loading Spinner */
+.inner-1gJC7_, 
+.spinner-inner {
+	filter: grayscale(1);
+}
+
+/* Discord Login Box */
+.authBox-hW6HRx {
+	background-color: #262626 !important;
+}
+
+/* Windows Titlebar */
+.appMount-3lHmkl .bg-h5JY_x {
+	background-color: #121212;
+}
+.appMount-3lHmkl .wordmark-2iDDfm {
+	margin-top: -1px;
+	margin-left: -4px;
+}
+
+/* Notice Bar */
+.notice-3bPHh- {
+	box-shadow: inset 0px -1px 10px -1px rgba(0,0,0,0.4);
+	border-radius: 4px 0px 0px 4px;
+}
+.theme-dark .notice-3bPHh-[style*="background-color: rgb(114, 137, 218);"],
+.theme-dark .notice-3bPHh- .colorBrand-2zeG8h,
+.theme-dark .notice-3bPHh- .colorBrand-2zeG8h .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+	background-color: var(--bd-blue) !important;
+}
+.theme-dark .notice-3bPHh- .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
+.theme-dark .notice-3bPHh- .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	border-color: transparent;
+}
+
+/* Settings Bottom Info: Theme Version */
+.sidebar-CFHs9e .info-1VyQPT:after {
+	font-size: 12px;
+	color: #72767C;
+	text-transform: none;
+	content: var(--Settings-Theme-Version);
 }
