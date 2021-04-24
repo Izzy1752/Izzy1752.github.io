@@ -1,3 +1,19 @@
+/*Custom Font System Wide*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+--Chat-Font-Used: 'Montserrat', normal ; /* Replace the url with a url of your font choice, and replace "Montserrat" and "normal" with your font name and weight.*/
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
+
+
+
 /* Scrollerbar & Background */
 .chat-3bRxxu .scroller-2LSbBU::-webkit-scrollbar-thumb {
 	background-color: #1B1B1B !important;
@@ -2005,13 +2021,6 @@
 }
 
 
-
-
-
-
-
-
-
 /*PINNED MESSAGES*/
 .messagesPopoutWrap-1MQ1bW{
 	background-color: #141414;
@@ -2025,6 +2034,8 @@
 .sidebar-2K8pFh{
 	border-radius: none;
 }
+
+/* Video and screenshare button call at bottom right */
 
 .button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO {
     background-color: #4857742a;
