@@ -1609,28 +1609,6 @@ font-size: var(--Chat-Font-Size)!important;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .theme-dark .container-3ayLPN {
 	background-color: #1B1B1B;
 	box-shadow: 0px 1px 2px 1px #131313;
@@ -2061,4 +2039,59 @@ font-size: var(--Chat-Font-Size)!important;
 .container-6sXIoE.withTimeline-824fT_ {
     padding-top: 8px;
     background-color: #1f1e1e;
+}
+
+
+
+.sidebar-2K8pFh{
+	border-radius: none;
+}
+
+.button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO {
+    background-color: #4857742a;
+	
+}
+
+.button-1YfofB.buttonColor-7qQbGO.fauxDisabled-2ik0Vw, .button-1YfofB .buttonColor-7qQbGO.fauxDisabled-2ik0Vw, .button-1YfofB.buttonColor-7qQbGO:disabled, .button-1YfofB .buttonColor-7qQbGO:disabled{
+	background-color: #4857742a;
+}
+
+
+
+
+
+.reaction-1hd86g {
+	background-color: #1B1B1B;
+}
+.reaction-1hd86g:hover {
+	background-color: #ffffff;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+	background-color: #ffffff;
+}
+.reactionCount-2mvXRV {
+	color: #ffffff;
+}
+
+.popoutContainer-1MXdqN {
+	background-color: #ffffff;
+}
+.popoutContainer-1MXdqN .popoutLoadingForeground-2mZT61 {
+	background-image: none;
+}
+.popoutContainer-1MXdqN .emojiSection-3Fb9ix {
+	background-color: #ffffff;
+	padding: 12px;
+}
+.popoutContainer-1MXdqN .guildSection-1EoFKd {
+	background-color: rgb(255, 255, 255);
+	padding: 12px;
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV, 
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+	color: var(--bd-red);
+}
+
+.reactionCount-2mvXRV{
+	color: white;
 }
