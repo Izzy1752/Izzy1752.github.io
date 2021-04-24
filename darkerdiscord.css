@@ -2138,6 +2138,20 @@ body {
 	margin-top: -1px;
 	margin-left: -4px;
 }
+/* Top Right Search Bar */
+.container-1r6BKw .searchBar-3dMhjb,
+.libraryFilter-31ZUa2 .searchBar-TUoVPN,
+.browseSearch-e9jF-f .searchBar-s2JxlI {
+	background-color: rgba(0,0,0,.35);
+	filter: grayscale(1);
+	border-radius: 20px;
+}
+.container-1r6BKw .searchBar-3dMhjb:hover,
+.libraryFilter-31ZUa2 .searchBar-TUoVPN:hover, 
+.browseSearch-e9jF-f .searchBar-s2JxlI:hover {
+	background-color: rgba(0,0,0,.2);
+	transition: 120ms;
+}
 
 /* Notice Bar */
 .notice-3bPHh- {
@@ -2160,4 +2174,12 @@ body {
 	color: #72767C;
 	text-transform: none;
 	content: var(--Settings-Theme-Version);
+}
+
+/* Voice Call Button */
+.colorable-1bkp8v.red-33-Lnk{
+    background-color: #0018b5;
+}
+.colorable-1bkp8v.red-33-Lnk:hover{
+    background-color: #0018b5;
 }
