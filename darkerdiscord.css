@@ -2051,6 +2051,14 @@ font-size: var(--Chat-Font-Size)!important;
     border-bottom: 1px solid var(--background-modifier-accent);
 }
 
+/* This is the invite link color */
+
 .mentioned-xhSam7 .wrapper-35wsBm {
     background-color: rgba(4, 24, 139, 0.212);
+}
+
+/* Spotify BetterDiscord Plugin Popup */
+.container-6sXIoE.withTimeline-824fT_ {
+    padding-top: 8px;
+    background-color: #1f1e1e;
 }
