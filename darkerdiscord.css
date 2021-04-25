@@ -903,7 +903,7 @@ font-size: var(--Chat-Font-Size)!important;
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN, 
 .mediaBarProgress-1xaPtl:after, 
 .mediaBarProgress-1xaPtl:before {
-	background-color: var(--bd-blue);
+	background-color: #3A71C1;
 }
 
 /* Invited To Join A Server & Game Invite Box */
@@ -2049,14 +2049,15 @@ font-size: var(--Chat-Font-Size)!important;
 	background-color: #4857742a;
 }
 
+/* Reactions */
 .reaction-1hd86g {
 	background-color: #1B1B1B;
 }
 .reaction-1hd86g:hover {
-	background-color: #ffffff;
+	background-color: #1B1B1B;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
-	background-color: #ffffff;
+	background-color: #1B1B1B;
 }
 .reactionCount-2mvXRV {
 	color: #ffffff;
@@ -2182,4 +2183,25 @@ body {
 }
 .colorable-1bkp8v.red-33-Lnk:hover{
     background-color: #0018b5;
+}
+
+/* SpotifyControls Plugin */
+.container-6sXIoE {
+	background-color: #1B1B1B !important;
+	border-bottom: 1px solid #212121 !important;
+}
+.container-6sXIoE .bar-g2ZMIm {
+	background-color: #161616;
+}
+
+/* SpotifyControls Plugin: Volume Slider */
+.theme-dark .themedPopout-1TrfdI {
+	background-color: #262626;
+	-webkit-box-shadow: var(--elevation-high);
+}
+.theme-dark .popout-xwjvsX.popoutTop-3WSJtH:after {
+	border-top-color: #262626;
+}
+.theme-dark .themedPopout-1TrfdI .bar-2Qqk5Z {
+	background-color: #161616;
 }
