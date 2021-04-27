@@ -2205,3 +2205,31 @@ body {
 .theme-dark .themedPopout-1TrfdI .bar-2Qqk5Z {
 	background-color: #161616;
 }
+
+/*Share screen call button on bottom while in VC*/
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp{
+    background-color: #3881ff;
+}
+
+/*Voice connected and wifi strength*/
+.rtcConnectionStatusConnected-VRZDjy{
+	color: #3881ff;
+}
+.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3{
+    color: #3881ff;
+}
+
+.icon-3Oovq9{
+    background-color: #3881ff; 
+}
+
+
+/*Chatbox top border*/ 
+.form-2fGMdU{
+    margin-top: -12px;
+}
+
+/*Profile popout*/
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
+    background-color: #161616;
+}
