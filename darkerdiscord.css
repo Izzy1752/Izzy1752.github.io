@@ -2179,10 +2179,10 @@ body {
 
 /* Voice Call Button */
 .colorable-1bkp8v.red-33-Lnk{
-    background-color: #0018b5;
+    background-color: #3881ff;
 }
 .colorable-1bkp8v.red-33-Lnk:hover{
-    background-color: #0018b5;
+    background-color: #3881ff;
 }
 
 /* SpotifyControls Plugin */
@@ -2232,4 +2232,40 @@ body {
 /*Profile popout*/
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
     background-color: #161616;
+} 
+
+/* Voice Channel: User Speaking */
+.sidebar-2K8pFh .avatarSpeaking-2IGMRN {
+	box-shadow: inset 0 0 0 1.5px #3881ff, inset 0 0 0 2px #161616;
+}
+
+/* Channel list bottom bar avatar speaking */
+.container-3baos1 .avatarSpeaking-2c8-9i {
+	box-shadow: inset 0 0 0 2px #3881ff,inset 0 0 0 2.5px #161616;
+}
+
+/* Viewing Older Messages/Jump To Present: Bottom Button */
+.chat-3bRxxu .jumpToPresentBar-G1R9s6 {
+	background-color: #161616;
+	opacity: .95;
+}
+.chat-3bRxxu .jumpToPresentBar-G1R9s6:hover {
+	background-color: #161616;
+}
+
+/* Voice Call: Speaking Border */
+.border-Jn5IOt.speaking-B2MXPi {
+	box-shadow: inset 0 0 0 3px #3881ff;
+}
+.border-3dQmSY.speaking-WDn8Wm {
+	box-shadow: inset 0 0 0 3px #3881ff, inset 0 0 0 3.5px #000000;
+}
+
+
+/* Invite To Game/Listen Card */
+.theme-dark .root-1gCeng {
+    background-color: #1b1a1a;
+}
+.theme-dark .footer-2gL1pp {
+    background-color: #1b1a1a;
 }
