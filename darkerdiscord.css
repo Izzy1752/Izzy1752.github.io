@@ -2207,7 +2207,7 @@ body {
 }
 
 /*Share screen call button on bottom while in VC*/
-.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp{
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover{
     background-color: #3881ff;
 }
 
