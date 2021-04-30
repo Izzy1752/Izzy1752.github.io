@@ -2207,8 +2207,9 @@ body {
 }
 
 /*Share screen call button on bottom while in VC*/
-.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover{
-    background-color: #3881ff;
+.container-1giJp5 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.container-1giJp5 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+	background-color: #3881ff;
 }
 
 /*Voice connected and wifi strength*/
@@ -2270,4 +2271,3 @@ body {
     background-color: #1b1a1a;
 }
 
-/* FINAL TEST /*
