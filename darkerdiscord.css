@@ -799,6 +799,10 @@ font-size: var(--Chat-Font-Size)!important;
 	transform: scale(1.24);
 }
 
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: var(--brand-experiment-15a);
+}
+
 
 /* Show All Reactions Modal */
 .container-1If-HZ .scroller-1-nKid,
@@ -2269,5 +2273,25 @@ body {
 }
 .theme-dark .footer-2gL1pp {
     background-color: #1b1a1a;
+}
+
+/* Ping color */
+.theme-dark .wrapper-3WhCwL {
+    background: var(--brand-experiment-30a);
+}
+
+/*VC Server list icon when in VC */
+.iconBadge-3qSJIw.participating-1NvRVd {
+    background-color: #3881ff;
+}
+
+/* @ mention when replying to someone's message */
+.colorLink-2vG20E {
+    color: #3881ff;
+}
+
+/* Update icon */
+.updateIconForeground-3tnNZn {
+    fill: #3881ff;
 }
 
